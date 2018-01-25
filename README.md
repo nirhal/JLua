@@ -9,7 +9,7 @@ It offers the following improvements:
 
 * Added LuaState wrapper to ease manipulation of lua objects.
 * Simpler creation of Java objects from Lua.
-* Lua error cause automatically Java exception and vice versa.
+* Lua error automatically causes Java exception and vice versa.
 * Added "try ... cache ... finally" mechanism to Lua.
 * Allows simpler implementation of Java interfaces in Lua.
 * Simple Java array creation from lua.
@@ -40,7 +40,7 @@ On **Windows** the default generator is a Visual Studio project file. You can op
 devenv Project.sln /build Debug
 ```
  
-Before running the Java program, make sure you have the .so (UNIX) or .dll (Windows) file path in your "LD_LIBRARY_PATH" (UNIX) or "PATH" (Windows) environmental variable.
+Before running the Java program, make sure you have the .so (UNIX) or .dll (Windows) file path in your "LD_LIBRARY_PATH" (UNIX) or "PATH" (Windows) environment variable.
 
 
 ### Usage from Lua ###

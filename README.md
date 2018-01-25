@@ -66,7 +66,7 @@ This library offers 5 functions:
     
 * **jlua.newArray ( class_name, num_of_elements )**
 
-    Create now Java array from Lua. 
+    Create new Java array from Lua. 
     Examples: 
     ```
     a = jlua.newArray("int", 3)
@@ -84,7 +84,7 @@ This library offers 5 functions:
     
 * **jlua.throw ( trowable_or_string )**
 
-    Throws Java exception or string
+    Throws Java exception or string.
     Examples: 
     ```
     jlua.throw("Error!!")
@@ -98,7 +98,7 @@ This library offers 5 functions:
     **jlua.try ( try_block, catch_block, finally_block )** or <br/>
      **jlua.try ( try_block, nil, finally_block )**
 
-    Create now Java array from Lua. 
+    Implement "try ... cache ... finally" block.
     Examples: 
     ```
     jlua.try(function()
@@ -125,7 +125,7 @@ This library offers 5 functions:
     
 * **jlua.createProxy ( java_interface, lua_table )**
     
-    Creating lua implementation of Java interface.
+    Create lua implementation of Java interface.
     Example:
     ```
     runnable = {}

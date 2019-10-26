@@ -10,7 +10,7 @@ It offers the following improvements:
 * Added LuaState wrapper to ease manipulation of lua objects.
 * Simpler creation of Java objects from Lua.
 * Lua error automatically causes Java exception and vice versa.
-* Added "try ... cache ... finally" mechanism to Lua.
+* Added "try ... catch ... finally" mechanism to Lua.
 * Allows simpler implementation of Java interfaces in Lua.
 * Simple Java array creation from lua.
 * Fixed some multithreading issues.
